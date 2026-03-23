@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mangalam HDPE Pipes – Premium HDPE Pipes & Coils</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- STICKY HEADER -->
+<div id="sticky-header">
+  <div class="sticky-inner">
+    <div class="sticky-logo-wrap">
+      <img src="assets/images/logo.png" alt="Mangalam HDPE Pipes" class="sticky-logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+      <div class="sticky-logo-fallback">
+        <span class="sl-top">Mangalam</span>
+        <span class="sl-sub">HDPE PIPES</span>
+      </div>
+    </div>
+    <nav class="sticky-links">
+      <a href="#about">About Us</a>
+      <a href="#specs">Specifications</a>
+      <a href="#features">Features</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <button class="btn btn-accent sticky-cta" onclick="smoothScrollTo('cta-form')">Contact Us</button>
+  </div>
+</div>
+
+<!-- MAIN NAV -->
+<nav id="main-nav">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="#" class="logo-link">
+        <img src="assets/images/logo.png" alt="Mangalam HDPE Pipes" class="logo-img"
+          onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+        <div class="logo-fallback">
+          <div class="logo-top">Mangalam</div>
+          <div class="logo-sub">HDPE Pipes</div>
+        </div>
+      </a>
+      <div class="nav-links">
+        <a href="#about">About Us</a>
+        <div class="dropdown">
+          <a href="#">Products</a>
+          <div class="dropdown-menu">
+            <a href="#">HDPE Pipes</a>
+            <a href="#">HDPE Coils</a>
+            <a href="#">Fittings &amp; Accessories</a>
+            <a href="#">PE-RT Heating Pipes</a>
+          </div>
+        </div>
+        <button class="btn btn-primary" onclick="smoothScrollTo('cta-form')">Contact Us</button>
+      </div>
+      <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </div>
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#about">About Us</a>
+    <a href="#specs">Specifications</a>
+    <a href="#features">Features</a>
+    <a href="#faq">FAQ</a>
+    <a href="#cta-form">Contact Us</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero-section">
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="#">Products</a><span>›</span> Two For One Twister
+    </div>
+    <div class="hero-grid">
+
+      <!-- Carousel -->
+      <div class="carousel-wrap">
+        <div class="carousel-main" id="carouselMain">
+          <img id="mainImg"
+            src="https://images.unsplash.com/photo-1581094288338-2314dddb7ece?w=800&q=80"
+            alt="HDPE Pipe Installation" />
+          <!-- Slide counter -->
+          <div class="slide-counter">
+            <span id="slideCurrentNum">1</span> / <span id="slideTotalNum">5</span>
+          </div>
+          <!-- Progress bar -->
+          <div class="slide-progress"><div class="slide-progress-bar" id="slideProgressBar"></div></div>
+          <div class="carousel-nav">
+            <button class="c-btn" id="prevBtn" aria-label="Previous">&#8592;</button>
+            <button class="c-btn" id="nextBtn" aria-label="Next">&#8594;</button>
+          </div>
+        </div>
+        <div class="carousel-thumbs" id="thumbs">
+          <img src="https://images.unsplash.com/photo-1581094288338-2314dddb7ece?w=200&q=70" class="active" onclick="setSlide(0)" alt="thumb 1" />
+          <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=200&q=70" onclick="setSlide(1)" alt="thumb 2" />
+          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=200&q=70" onclick="setSlide(3)" alt="thumb 4" />
+          <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=200&q=70" onclick="setSlide(4)" alt="thumb 5" />
+        </div>
+      </div>
+
+      <!-- Product Info -->
+      <div class="hero-info">
+        <div class="cert-bar">
+          <div class="cert-badge"><span>🏆</span> BIS Certified</div>
+          <div class="cert-badge"><span>✅</span> ISO Certified</div>
+          <div class="cert-badge"><span>🇪🇺</span> CE Certified</div>
+        </div>
+        <h1 class="hero-title">Premium HDPE Pipes &amp; Coils for Modern Infrastructure</h1>
+        <ul class="hero-bullets">
+          <li>Leak-Proof Fusion Joints</li>
+          <li>Chemical Resistance</li>
+          <li>50+ Year Service Life</li>
+          <li>Flexible Installation</li>
+          <li>Environmentally Safe</li>
+        </ul>
+        <div class="price-box">
+          <div class="price-label">Price Range</div>
+          <div class="price-range">₹4,80,000 – 7,90,000</div>
+          <div class="price-tags">
+            <span class="price-tag orange">⚡ Shipping: 6–12 days</span>
+            <span class="price-tag green">✔ Returns within 7 days</span>
+          </div>
+          <div class="cert-line">Certifications: ISO Certified, BIS Certified</div>
+        </div>
+        <div class="hero-ctas">
+          <button class="btn btn-primary" onclick="smoothScrollTo('cta-form')">Get Custom Quote</button>
+          <button class="btn btn-outline" onclick="smoothScrollTo('specs')">View Technical Specs →</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BRAND STRIP -->
+<div class="brand-strip">
+  <div class="container">
+    <p class="strip-label">Trusted by Hundreds of Companies Globally</p>
+    <div class="brand-strip-inner">
+      <div class="brand-track">
+        <span class="brand-logo">EUROFLEX</span>
+        <span class="brand-logo">AQUAPIPE</span>
+        <span class="brand-logo">POLYFLEX</span>
+        <span class="brand-logo">HYDRATECH</span>
+        <span class="brand-logo">PIPECRAFT</span>
+        <span class="brand-logo">FLOWMASTER</span>
+        <span class="brand-logo">EUROFLEX</span>
+        <span class="brand-logo">AQUAPIPE</span>
+        <span class="brand-logo">POLYFLEX</span>
+        <span class="brand-logo">HYDRATECH</span>
+        <span class="brand-logo">PIPECRAFT</span>
+        <span class="brand-logo">FLOWMASTER</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SPECS -->
+<section class="specs-section" id="specs">
+  <div class="container">
+    <h2 class="section-title">Technical Specifications at a Glance</h2>
+    <p class="section-sub">Comprehensive performance data demonstrating our commitment to quality and engineering excellence.</p>
+    <table class="specs-table">
+      <thead><tr><th>Parameter</th><th>Specification</th></tr></thead>
+      <tbody>
+        <tr><td>Pipe Diameter Range</td><td>20mm to 1600mm (3/4" to 63")</td></tr>
+        <tr><td>Pressure Ratings</td><td>PN 2.5, PN 4, PN 6, PN 8, PN 10, PN 12.5, PN 16</td></tr>
+        <tr><td>Standard Dimension Ratio</td><td>SDR 33, SDR 26, SDR 21, SDR 17, SDR 13.6, SDR 11</td></tr>
+        <tr><td>Operating Temperature</td><td>-40°C to +80°C (-40°F to +176°F)</td></tr>
+        <tr><td>Service Life</td><td>50+ Years (at 20°C, PN 10)</td></tr>
+        <tr><td>Material Density</td><td>0.95 – 0.96 g/cm³</td></tr>
+        <tr><td>Certification Standards</td><td>IS 5884, ISO 4427, ASTM D3035</td></tr>
+        <tr><td>Joint Type</td><td>Butt Fusion, Electrofusion, Mechanical</td></tr>
+        <tr><td>Coil Lengths</td><td>Up to 500mm (for smaller diameters)</td></tr>
+        <tr><td>Country of Origin</td><td>🇮🇳 India</td></tr>
+      </tbody>
+    </table>
+    <div class="specs-dl">
+      <button class="btn-ghost">⬇ Download Full Technical Datasheet</button>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="features-section" id="features">
+  <div class="container">
+    <h2 class="section-title">Built to Last. Engineered to Perform.</h2>
+    <p class="section-sub">From bulk bags to technical threads, Meera delivers precision solutions for every stage of your packaging process.</p>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">🧪</div>
+        <div class="feature-title">Superior Chemical Resistance</div>
+        <div class="feature-desc">HDPE pipes resist a wide range of chemicals, acids, and alkalis. Unlike metal pipes, they won't corrode, rust, or scale, ensuring pure water quality and extended service life.</div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🔧</div>
+        <div class="feature-title">Exceptional Flexibility &amp; Durability</div>
+        <div class="feature-desc">Built to flex without fracturing, our pipes absorb ground movement and vibrations while maintaining structural integrity across decades of use.</div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">💧</div>
+        <div class="feature-title">Leak-Proof Fusion Welding</div>
+        <div class="feature-desc">Electrofusion and butt-fusion joints create seamless, monolithic connections that are stronger than the pipe wall itself — zero leaks guaranteed.</div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">💰</div>
+        <div class="feature-title">Cost-Effective Long-Term Solution</div>
+        <div class="feature-desc">Lower installation costs, virtually zero maintenance, and a 50+ year lifespan deliver the best lifecycle value of any piping system available today.</div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🌿</div>
+        <div class="feature-title">Environmentally Sustainable</div>
+        <div class="feature-desc">100% recyclable material, minimal carbon footprint in production, and no leaching of harmful chemicals make HDPE the eco-responsible choice.</div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">✅</div>
+        <div class="feature-title">Certified Quality Assurance</div>
+        <div class="feature-desc">Every batch is tested to IS 5884, ISO 4427, and ASTM D3035 standards — ensuring consistent dimensional accuracy and pressure performance.</div>
+      </div>
+    </div>
+    <div class="features-cta">
+      <button class="btn btn-primary" onclick="smoothScrollTo('cta-form')">Request a Quote</button>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq-section" id="faq">
+  <div class="container">
+    <h2 class="section-title"><span class="highlight">Frequently</span> Asked Questions</h2>
+    <div class="faq-list">
+      <div class="faq-item open">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          What is the purpose of a laser cutter for sheet metal?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a">It is designed to cut various types of sheet metal with precision, allowing for intricate designs and shapes that are essential in manufacturing processes.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          What are the benefits of using aluminum tubing in manufacturing?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a">Aluminum tubing offers an excellent strength-to-weight ratio, corrosion resistance, and ease of machining, making it ideal for lightweight structural applications.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          How is aluminium tubing produced?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a">Aluminum tubing is produced through extrusion processes where heated aluminum billets are pushed through a shaped die to form the desired cross-section.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          What are the common applications of aluminum tubing?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a">Common applications include aerospace frames, bicycle frames, architectural structures, automotive parts, and fluid transport systems.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          Can aluminum tubing be customized?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a">Yes, aluminum tubing can be customized in diameter, wall thickness, length, and alloy composition to suit specific application requirements.</div>
+      </div>
+    </div>
+    <div class="catalogue-box">
+      <div>
+        <h4>Want us to email the entire catalogue?</h4>
+        <p>Enter your email and an expert will share the catalogue with you.</p>
+      </div>
+      <div class="catalogue-form">
+        <input type="email" placeholder="Email Address" />
+        <button class="btn btn-primary">Request Catalogue</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- APPLICATIONS -->
+<section class="apps-section">
+  <div class="container">
+    <div class="apps-header">
+      <div>
+        <h2 class="section-title">Versatile Applications Across Industries</h2>
+        <p class="section-sub">From technical textiles to packaging materials, our precision-engineered machinery delivers superior performance across diverse applications.</p>
+      </div>
+      <div class="carousel-arrows">
+        <button class="arr-btn" id="appsLeft">&#8592;</button>
+        <button class="arr-btn" id="appsRight">&#8594;</button>
+      </div>
+    </div>
+    <div class="apps-track-wrap">
+      <div class="apps-track" id="appsTrack">
+        <div class="app-card">
+          <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80" alt="Fishnet" />
+          <div class="app-card-overlay"><div class="app-card-title">Fishnet Manufacturing</div><div class="app-card-desc">High-performance twisting solutions for packaging yarn and reinforcement threads.</div></div>
+        </div>
+        <div class="app-card">
+          <img src="https://images.unsplash.com/photo-1581094288338-2314dddb7ece?w=200&q=70" alt="Water Supply" />
+          <div class="app-card-overlay"><div class="app-card-title">Water Supply Networks</div><div class="app-card-desc">Reliable potable water distribution with leak-proof fusion-welded joints.</div></div>
+        </div>
+        <div class="app-card">
+          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80" alt="Irrigation" />
+          <div class="app-card-overlay"><div class="app-card-title">Irrigation Systems</div><div class="app-card-desc">Efficient agricultural water delivery across large-scale farming infrastructure.</div></div>
+        </div>
+        <div class="app-card">
+          <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=600&q=80" alt="Industrial" />
+          <div class="app-card-overlay"><div class="app-card-title">Industrial Pipelines</div><div class="app-card-desc">Chemical-resistant piping for process industries and industrial fluid handling.</div></div>
+        </div>
+        <div class="app-card">
+          <img src="https://images.unsplash.com/photo-1581094288338-2314dddb7ece?w=600&q=80" alt="Pipeline" />
+          <div class="app-card-overlay"><div class="app-card-title">Pipeline Construction</div><div class="app-card-desc">Long-haul pipeline solutions engineered for decades of reliable performance.</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="process-section">
+  <div class="container">
+    <h2 class="section-title">Advanced HDPE Pipe Manufacturing Process</h2>
+    <p class="section-sub">Our state-of-the-art extrusion technology ensures consistent quality, optimal material properties, and dimensional accuracy in every pipe we manufacture.</p>
+    <div class="process-steps" id="processSteps">
+      <div class="process-step active" onclick="setProcess(0,this)">Raw Material</div>
+      <div class="process-step" onclick="setProcess(1,this)">Extrusion</div>
+      <div class="process-step" onclick="setProcess(2,this)">Cooling</div>
+      <div class="process-step" onclick="setProcess(3,this)">Sizing</div>
+      <div class="process-step" onclick="setProcess(4,this)">Quality Control</div>
+      <div class="process-step" onclick="setProcess(5,this)">Marking</div>
+      <div class="process-step" onclick="setProcess(6,this)">Cutting</div>
+      <div class="process-step" onclick="setProcess(7,this)">Packaging</div>
+    </div>
+    <div class="process-content">
+      <div class="process-info">
+        <h3 id="processTitle">High-Grade Raw Material Selection</h3>
+        <p id="processDesc">PE100 grade virgin resin is carefully selected for optimal melt flow index and molecular weight distribution, ensuring maximum pipe performance.</p>
+        <ul class="process-bullets" id="processBullets">
+          <li>PE100 grade virgin resin</li>
+          <li>Optimal molecular weight distribution</li>
+          <li>UV stabilizer added for outdoor use</li>
+        </ul>
+      </div>
+      <div class="process-img">
+        <img id="processImg" src="https://images.unsplash.com/photo-1581094288338-2314dddb7ece?w=700&q=80" alt="Manufacturing" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testi-section">
+  <div class="container">
+    <h2 class="section-title">Trusted Performance. Proven Results</h2>
+    <p class="section-sub">From innovative Two-For-One Twisters to specialized heat-setting machines, we deliver concrete solutions for modern textile manufacturing.</p>
+    <div class="testi-grid">
+      <div class="testi-card">
+        <div class="quote-mark">"</div>
+        <p class="testi-text">Revolutionized our FIBC production efficiency! Our TFO machines have boosted our FIBC production efficiency. Precision engineering delivers the exact yarn strength critical for our bulk container applications.</p>
+        <div class="testi-author">
+          <div class="author-avatar">JM</div>
+          <div><div class="author-name">Johann Mueller</div><div class="author-role">Factory Director</div></div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <div class="quote-mark">"</div>
+        <p class="testi-text">Excellent support for specialized applications. The durability and performance of Meera's precision processing equipment has significantly improved our marine product quality.</p>
+        <div class="testi-author">
+          <div class="author-avatar">CM</div>
+          <div><div class="author-name">Carlos Mendoza</div><div class="author-role">Operations Manager</div></div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <div class="quote-mark">"</div>
+        <p class="testi-text">Provides the exact specifications we need! For our technical textile applications, Meera's specialized machinery provides the exact specifications we need. Their understanding of reinforcement fibre requirements is exceptional.</p>
+        <div class="testi-author">
+          <div class="author-avatar">RK</div>
+          <div><div class="author-name">Rajesh Kumar</div><div class="author-role">Manufacturing Head</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section class="portfolio-section">
+  <div class="container">
+    <h2 class="section-title">Complete Piping Solutions Portfolio</h2>
+    <p class="section-sub">From innovative Two-For-One Twisters to specialized heat-setting machines, we deliver complete solutions for modern textile manufacturing.</p>
+    <div class="portfolio-grid">
+      <div class="portfolio-card">
+        <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80" alt="HDPE Fittings" />
+        <div class="portfolio-card-body">
+          <div class="portfolio-card-title">HDPE Fittings &amp; Accessories</div>
+          <div class="portfolio-card-desc">Complete range of electrofusion and butt fusion fittings, including elbows, tees, reducers, and couplers for seamless pipe connectivity.</div>
+          <a class="link-btn" href="#">Learn More →</a>
+        </div>
+      </div>
+      <div class="portfolio-card">
+        <img src="https://images.unsplash.com/photo-1581094288338-2314dddb7ece?w=200&q=70" alt="Installation" />
+        <div class="portfolio-card-body">
+          <div class="portfolio-card-title">Professional Installation Services</div>
+          <div class="portfolio-card-desc">Expert installation and fusion welding services ensuring optimal system performance, compliance with standards, and long-term reliability.</div>
+          <a class="link-btn" href="#">Learn More →</a>
+        </div>
+      </div>
+      <div class="portfolio-card">
+        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80" alt="PE-RT" />
+        <div class="portfolio-card-body">
+          <div class="portfolio-card-title">PE-RT Heating Pipes</div>
+          <div class="portfolio-card-desc">High-temperature resistance pipes ideal for underfloor heating, radiator connections, and hot water applications.</div>
+          <a class="link-btn" href="#">Learn More →</a>
+        </div>
+      </div>
+    </div>
+    <div class="expert-bar">
+      <div>
+        <p>Didn't find what you're looking for?</p>
+        <span>Talk to our experts for custom solutions and tailored guidance.</span>
+      </div>
+      <button class="btn btn-outline">💬 Talk to an Expert</button>
+    </div>
+  </div>
+</section>
+
+<!-- RESOURCES -->
+<section class="resources-section">
+  <div class="container">
+    <h2 class="section-title">Resources &amp; Downloads</h2>
+    <p class="section-sub">Get all the technical documentation and resources you need to make informed decisions about our HDPE piping solutions.</p>
+    <div class="resource-list">
+      <div class="resource-item">
+        <span class="resource-name">HDPE Pipe Installation Manual (PDF)</span>
+        <a class="dl-btn" href="#">⬇ Download PDF</a>
+      </div>
+      <div class="resource-item">
+        <span class="resource-name">Maintenance &amp; Inspection Handbook (PDF)</span>
+        <a class="dl-btn" href="#">⬇ Download PDF</a>
+      </div>
+      <div class="resource-item">
+        <span class="resource-name">Engineering Specifications Sheet (PDF)</span>
+        <a class="dl-btn" href="#">⬇ Download PDF</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section" id="cta-form">
+  <div class="container">
+    <div class="cta-grid">
+      <div class="cta-left">
+        <h2>Ready to Transform Your Textile Manufacturing?</h2>
+        <p>Get a personalised consultation and quote for machinery solutions tailored to your specific production requirements.</p>
+        <div class="cta-contact">
+          <p>For immediate assistance, call us at <a href="tel:+919999999999">+91-9XXX-XXX-XXXX</a> or write to <a href="mailto:info@meera.com">info@meera.com</a></p>
+        </div>
+      </div>
+      <div class="cta-form-box">
+        <h3>Contact Us Today</h3>
+        <div class="form-group"><label>Full Name</label><input type="text" placeholder="Your Name" /></div>
+        <div class="form-group"><label>Company Name</label><input type="text" placeholder="Company Name" /></div>
+        <div class="form-group"><label>Email Address</label><input type="email" placeholder="Email Address" /></div>
+        <div class="form-row">
+          <div class="form-group"><label>Country Code</label><input type="text" placeholder="+91" /></div>
+          <div class="form-group"><label>Phone Number</label><input type="tel" placeholder="0000-0000000" /></div>
+        </div>
+        <button class="btn btn-primary form-submit">Request Custom Quote</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="assets/images/logo.png" alt="Mangalam HDPE Pipes" class="footer-logo"
+          onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+        <div class="logo-fallback footer-logo-fallback">
+          <div class="logo-top">Mangalam</div>
+          <div class="logo-sub">HDPE Pipes</div>
+        </div>
+        <p>Premium HDPE Pipes &amp; Fittings Manufacturer in South India. Delivering quality piping solutions since 1985.</p>
+        <div class="footer-social">
+          <div class="social-btn">𝕏</div>
+          <div class="social-btn">in</div>
+          <div class="social-btn">f</div>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Managing Industry Solutions</a></li>
+          <li><a href="#">Textile Manufacturing</a></li>
+          <li><a href="#">PPTF Tapes and Textiles</a></li>
+          <li><a href="#">Jute and Sisal Craft</a></li>
+          <li><a href="#">Carpet and Rug Industry</a></li>
+          <li><a href="#">Technical Textiles</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Products</h5>
+        <ul>
+          <li><a href="#">Two-For-One Twister</a></li>
+          <li><a href="#">TFO Twister Machine</a></li>
+          <li><a href="#">Ring Twisting Machine</a></li>
+          <li><a href="#">Drawing Machine</a></li>
+          <li><a href="#">Heat Setting Machine</a></li>
+          <li><a href="#">Servo-Controlled Winser</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <div class="contact-item"><span>📍</span><span>S. No. 1, ABC Street, Pune – 1, Maharashtra, India</span></div>
+        <div class="contact-item"><span>📞</span><span>+91 0000-00-0000</span></div>
+        <div class="contact-item"><span>✉️</span><span>info@meera.com</span></div>
+      </div>
+    </div>
+    <div class="footer-bar">
+      <p>Copyright © 2025 Meera Industries Ltd. All Rights Reserved.</p>
+      <div class="footer-bar-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Sitemap</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
